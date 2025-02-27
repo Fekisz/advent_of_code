@@ -15,13 +15,12 @@ async function check_file() {
 }
 
 (async () => {
-	const input = await check_file(); // Pobranie danych z pliku
+	const input = await check_file();
 
 	let ans = 0;
 	let offset_line = 3;
 	let j = 0;
 
-	// Przechodzimy przez wszystkie linie w input
 	input.forEach((element) => {
 		for (let i in element) {
 			if (
