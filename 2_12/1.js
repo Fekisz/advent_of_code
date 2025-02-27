@@ -39,6 +39,5 @@ async function check_file() {
 		}
 	});
 
-	// console.log(d_list);
 	console.log(ans);
 })();
